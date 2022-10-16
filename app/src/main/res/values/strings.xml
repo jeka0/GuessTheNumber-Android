@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">lab4</string>
+    <string name="show_msg_label">Отгадай!</string>
+    <string name="show_win_label">Отгадано!</string>
+    <string name="win_label">Поздравляю!</string>
+    <string name="less">Мое число меньше!</string>
+    <string name="more">Мое число больше!</string>
+    <string name="error">Введено неверное значение!</string>
+    <string name="show_hint_label">Задумано двузначное число</string>
+    <string name="show_hint_label3">Задумано трехзначное число</string>
+    <string name="show_hint_label4">Задумано четырехзначное число</string>
+    <string name="show_attempts_left_label">5</string>
+    <string name="edit_num_label">Введите число</string>
+    <string name="button_guess_label">Отгадай</string>
+    <string name="button_restart_label">Заново</string>
+    <string name="attempts_are_over">Попытки закончились!</string>
+    <string name="settings">Настройки</string>
+    <string name="mystery_number">Загадочное число:</string>
+    <string name="not_guessed">Не отгадано!</string>
+    <string name="attempt_number">Номер попытки:</string>
+    <string name="ok">Хорошо</string>
+    <string name="Negative">Отмена</string>
+    <string name="but_share">Делиться</string>
+    <string name="Notes">Заметки</string>
+    <string name="Change_name">Изменить имя</string>
+    <string name="aboutDeveloper">О разработчике</string>
+    <string name="Change_your_name">Измените имя</string>
+    <string-array name="diaps_array">
+        <item> <string name="_2">2-значные</string></item>
+        <item> <string name="_3">3-значные</string></item>
+        <item><string name="_4">4-значные</string></item>
+    </string-array>
+    <string name="name">ЛАТОШ ЕВГЕНИЙ АЛЕКСАНДРОВИЧ</string>
+    <string name="Speciality">Специальность: Программное обеспечение информационных технологий</string>
+    <string name="Age">Возраст: 19 лет</string>
+    <string name="Group">Группа: СДП-ПОИТ-202</string>
+    <string name="Course">Курс: 3</string>
+    <string name="Red">Красный</string>
+    <string name="Violet">Фиолетовый</string>
+    <string name="game_result">Результат игры</string>
+</resources>

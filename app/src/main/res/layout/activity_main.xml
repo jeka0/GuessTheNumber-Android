@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <android.widget.LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical"
+            tools:context=".MainActivity">
+
+
+            <TextView
+                android:id="@+id/userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/show_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="@string/show_msg_label"
+                android:textColor="#305295"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/show_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="cursive"
+                android:text="@string/show_hint_label"
+                android:textColor="#C83737"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/show_attempts_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/show_attempts_left_label"
+                android:textColor="#3F9E43"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/edit_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/edit_num_label"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:selectAllOnFocus="true"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/button_guess"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="guess"
+                android:text="@string/button_guess_label"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/button_restart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="restart"
+                android:text="@string/button_restart_label"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/button_Share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/but_share"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/notes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Notes"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/buttonName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Change_name"
+                android:textSize="25sp" />
+        </android.widget.LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

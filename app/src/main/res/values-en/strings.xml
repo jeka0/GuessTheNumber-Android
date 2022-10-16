@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">lab4</string>
+    <string name="show_msg_label">Guess!</string>
+    <string name="show_win_label">Guessed!</string>
+    <string name="win_label">Congratulations!</string>
+    <string name="less">My number is less!</string>
+    <string name="more">My number is bigger!</string>
+    <string name="error">Invalid value entered!</string>
+    <string name="show_hint_label">Conceived two-digit number</string>
+    <string name="show_hint_label3">A three-digit number is conceived</string>
+    <string name="show_hint_label4">A four-digit number is conceived</string>
+    <string name="show_attempts_left_label">5</string>
+    <string name="edit_num_label">Enter the number</string>
+    <string name="button_guess_label">Guess</string>
+    <string name="button_restart_label">restart</string>
+    <string name="attempts_are_over">Attempts are over!</string>
+    <string name="settings">Settings</string>
+    <string name="mystery_number">Mystery number:</string>
+    <string name="not_guessed">Not guessed!</string>
+    <string name="attempt_number">Attempt_number:</string>
+    <string name="ok">OK</string>
+    <string name="Negative">Cancel</string>
+    <string name="Notes">Notes</string>
+    <string name="but_share">Share</string>
+    <string name="Change_name">Change name</string>
+    <string name="aboutDeveloper">About the developer</string>
+    <string name="Change_your_name">Change your name</string>
+    <string-array name="diaps_array">
+        <item><string name="_2">2 digits</string></item>
+        <item><string name="_3">3 digits</string></item>
+        <item><string name="_4">4 digits</string></item>
+    </string-array>
+    <string name="name">LATOSH EVGENIY ALEKSANDROVICH</string>
+    <string name="Speciality">Specialty: Information technology software</string>
+    <string name="Age">Age: 19 years old</string>
+    <string name="Group">Group: SDP-POIT-202</string>
+    <string name="Course">Course: 3</string>
+    <string name="Red">Red</string>
+    <string name="Violet">Violet</string>
+    <string name="game_result">Game result</string>
+</resources>

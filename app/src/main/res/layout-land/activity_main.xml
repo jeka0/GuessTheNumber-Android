@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="clip_horizontal|center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="TextView"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/show_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="@string/show_msg_label"
+        android:textColor="#305295"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/show_attempts_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/show_attempts_left_label"
+        android:textColor="#3F9E43"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/show_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="@string/show_hint_label"
+        android:textColor="#C83737"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edit_num"
+        android:layout_width="254dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/edit_num_label"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:selectAllOnFocus="true"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="47dp"
+        android:gravity="clip_horizontal|center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_guess"
+            android:layout_width="134dp"
+            android:layout_height="48dp"
+            android:layout_margin="10dp"
+            android:onClick="guess"
+            android:text="@string/button_guess_label"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/button_restart"
+            android:layout_width="134dp"
+            android:layout_height="48dp"
+            android:layout_margin="10dp"
+            android:onClick="restart"
+            android:text="@string/button_restart_label"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="394dp"
+        android:layout_height="47dp"
+        android:gravity="clip_horizontal|center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/notes"
+            android:layout_width="172dp"
+            android:layout_height="48dp"
+            android:layout_margin="10dp"
+            android:text="@string/Notes"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/button_Share"
+            android:layout_width="170dp"
+            android:layout_height="48dp"
+            android:layout_margin="10dp"
+            android:text="@string/but_share"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="clip_horizontal|center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonName"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:text="@string/Change_name"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</android.widget.LinearLayout>
